@@ -1,5 +1,4 @@
 cmake_minimum_required(VERSION 2.8.3 FATAL_ERROR)
-set(CMAKE_VERBOSE_MAKEFILE off)
 
 project(lzma)
 
