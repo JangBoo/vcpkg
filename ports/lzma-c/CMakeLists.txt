@@ -8,7 +8,7 @@ file(GLOB HDR_FILES
 file(GLOB SRC_FILES
         ${PROJECT_SOURCE_DIR}/C/*.c)
 
-add_library(lzma SHARED
+add_library(lzma STATIC 
     ${SRC_FILES}
     ${HDR_FILES}
 )

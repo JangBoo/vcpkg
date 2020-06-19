@@ -20,7 +20,5 @@ vcpkg_configure_cmake(
 vcpkg_install_cmake()
 vcpkg_copy_pdbs()
 
-set(VCPKG_POLICY_DLLS_WITHOUT_LIBS enabled)
-set(VCPKG_POLICY_DLLS_WITHOUT_EXPORTS enabled)
-file(REMOVE_RECURSE "${CURRENT_PACKAGES_DIR}/debug/include" "${CURRENT_PACKAGES_DIR}/debug/lib" "${CURRENT_PACKAGES_DIR}/lib")
+file(REMOVE_RECURSE "${CURRENT_PACKAGES_DIR}/debug/include")
 configure_file(${CMAKE_CURRENT_LIST_DIR}/LICENSE ${CURRENT_PACKAGES_DIR}/share/${PORT}/copyright COPYONLY)
