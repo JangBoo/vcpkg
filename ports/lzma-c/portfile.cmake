@@ -1,3 +1,4 @@
+vcpkg_fail_port_install(ON_TARGET "Linux" "OSX" "UWP" "arm" "arm64")
 
 vcpkg_download_distfile(lzmaArchive
     URLS "https://www.7-zip.org/a/lzma1900.7z"
