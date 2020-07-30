@@ -1,0 +1,4 @@
+Source: lzma-c
+Version: 19.00
+Homepage: https://www.7-zip.org/sdk.html
+Description: The LZMA SDK provides the documentation, samples, header files, libraries, and tools you need to develop applications that use LZMA compression.

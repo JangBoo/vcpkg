@@ -1,0 +1,4 @@
+Source: antlr2
+Version: 2.7.7
+Homepage: https://www.antlr2.org/
+Description: ANTLR, ANother Tool for Language Recognition, (formerly PCCTS) is a language tool that provides a framework for constructing recognizers, compilers, and translators from grammatical descriptions containing Java, C#, C++, or Python actions. ANTLR provides excellent support for tree construction, tree walking, and translation. 
